@@ -1,6 +1,105 @@
-.card-class{
-    margin: 3%;
-    width: 18%;
+.main-class{
+    padding: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+    width: 80%;
+    margin-top: 12px;
+    margin: 5%;
+    margin-left: 13%;
+}
+.main-class .jobs{
     text-align: left;
-    float: left;
+    text-indent: -1%;
+    
+    
+}
+
+.jobs-button{
+    margin-right: 16px;
+    margin-top: 12px;
+    display: grid; 
+     grid-template-columns: repeat(4, 1fr); 
+   gap: 10px; 
+}
+
+.card-class{
+    margin: 13%;
+    width: 80%;
+    text-align: left;
+    float: down;
+    margin-top: 12px;
+    padding: 12px;
+    padding-left: 12px;
+    padding-top: 12px;
+    
+}
+.card_title{
+    margin-top: -60px;
+    margin-left: 32px;
+    
+}
+.status-class{
+    margin-top: 12px;
+    margin-left: 40px;
+    margin-right: 12px;
+    gap: 42px;
+    margin-bottom: 12px;
+    padding: 12px;
+    padding-left: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 70%;
+    text-align: left;
+    float: down;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+.star{ 
+     margin: 0px 0px;
+    color: #a9a5a5;
+    display: inline-block;
+    cursor: pointer;
+    transition: all .3s;
+    transform: scale(1);
+    margin-left: 12px;
+}
+
+
+.star
+ { 
+    margin-top: 12px;
+    width: 40px;
+    height: 40px;}
+
+.star-gold
+  {color: orange}
+
+
+.star-rating-animation:hover .star-hover
+  {
+    color: orange;
+    
+}
+
+.star-rating-animation .star-hover:hover ~ .star-hover
+  {color: #ddd}
+
+.star-rating-animation .star-hover:hover
+{  transform: scale(1.3)
+}
+
+
+.upload-icon{
+    
+    line-height: 12px;
+    font-family: tahoma;
+    margin-top: 12px;
+    margin-right: 122px;
+    position:absolute;
+    display: flex;
+    top:0;
+    right: -102px;
+    padding: 12px;
+    gap: 8px;
 }
